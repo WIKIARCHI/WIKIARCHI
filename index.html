@@ -11,21 +11,17 @@
   <script src="https://kit.fontawesome.com/fb67b3ec06.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="background-color: #fbfbfb;">
 
   <!-- nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <img style="width: 7%; margin:1% 2%" src="/img/Asset 5.svg" class="navbar-brand" href="#"> </img>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand navbar-light">
+    <img style="width: 100px; margin:20px 30px" src="/img/Asset 5.svg" class="navbar-brand" href="#"> </img>
 
 <!-- login button -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-autos ml-auto">
         <li class="nav-item active d-flex align-items-center justify-content-center"
-          style=" width:100px; height:30px; border-radius: 30px; text-align: center; box-shadow: 0px 0px 2px 1px ;">
+          style=" width:100px; height:35px; border-radius: 35px; text-align: center; border:1px solid black">
           <a class="nav-link" href="#">로그인 <span class="sr-only">(current)</span></a>
         </li>
 
@@ -36,15 +32,15 @@
         <li class="nav-item dropdown">
           <a class="nav-link d-flex align-items-center justify-content-center" href="#" id="navbarDropdown"
             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-            style="border-radius:30px; width:30px; height:30px; text-align:center; box-shadow: 0px 0px 2px 1px;">
+            style="border-radius:35px; width:35px; height:35px; text-align:center; border:1px solid black">
             <i class="fa-solid fa-bars" style="font-size:20px"></i>
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu dropdown-menu-right mt-2" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">공지사항</a>
             <a class="dropdown-item" href="#">태그 목록</a>
             <a class="dropdown-item" href="#">서비스 정책</a>
             <div class="dropdown-divider"></div>
-            <div class="dropdown-information">문의<br>chino1224@naver.com</div>
+            <div class="container dropdown-information">문의<br>chino1224@naver.com</div>
           </div>
         </li>
       </ul>
@@ -56,9 +52,9 @@
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="오늘 위키할 아키는?" aria-label="Search"
+          <input class="form-control me-2" type="search" placeholder="오늘 위키할 아키는?" aria-label="Search" id="wiki-word"
             style="background-color:#E7E7E7; width:80%; border-radius:25.5px; margin-right:5px;">
-          <button class="btn btn-outline-success" type="submit" style="border-radius:25.5px">WIKI!</button>
+          <button class="btn" id="wiki-button" type="submit">WIKI!</button>
         </form>
       </div>
     </nav>
