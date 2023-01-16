@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'ONE-Mobile-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'ONE-Mobile-Regular';
+}
+
 .collapse {
     margin-right: 30px;
 }
@@ -7,7 +18,7 @@
 }
 
 .login-button-circle{
-    margin-right: -10px;
+    margin-right: -1px;
 }
 
 .login-button {
@@ -59,7 +70,7 @@
 }
 
 .align-button-set {
-    margin-left: 140px;
+    margin-left: 120px;
     margin-bottom: 20px;
     width: 1000px;
 }
@@ -76,4 +87,61 @@
 .align-button-new:hover {
     font-size: 20px;
     color: black;
+}
+
+/*card*/
+.card-body{
+    text-decoration: none;
+    color: black;
+}
+
+/*login modal*/
+.modal-header{
+    display: flex;
+    text-align: center;
+}
+
+.modal-title{
+    display: block;
+    margin-top:10px;
+    width: 450px;
+    text-align: center;
+}
+
+.modal-title-login{
+    font-size: xx-large;
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.member_login_input{
+    margin-top:10px;
+}
+
+.member_login_btn{
+    margin:20px 0;
+}
+
+#btn-login,#btn-join{
+    background-color: #DBF135;
+    height: 30px;
+    padding:0 20px;
+}
+
+#btn-login{
+    width:100px;
+}
+
+#btn-join{
+    background-color: white;
+    border:1px solid #DBF135
+}
+
+#btn-join:hover{
+    background-color: #DBF135;
+}
+
+.find_password{
+    font-size: 0.8rem;
 }

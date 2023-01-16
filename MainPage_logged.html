@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/MainPage_logged.css">
   <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
   <script src="https://kit.fontawesome.com/fb67b3ec06.js" crossorigin="anonymous"></script>
 </head>
@@ -14,26 +14,26 @@
 <body style="background-color: #fbfbfb;">
 
   <!-- nav bar -->
-  <nav class="navbar navbar-expand navbar-light">
+  <nav class="navbar navbar-expand">
     <img style="width: 100px; margin:20px 30px" src="/img/Asset 5.svg" class="navbar-brand" href="#"> </img>
 
-<!-- login button -->
+    <!-- login button -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-autos ml-auto">
-        <li class="nav-item active d-flex align-items-center justify-content-center"
-          style=" width:100px; height:35px; border-radius: 35px; text-align: center; border:1px solid black">
-          <a class="nav-link" href="#">로그인 <span class="sr-only">(current)</span></a>
+        <li class="nav-item active d-flex align-items-center justify-content-center login-button-circle">
+          <a class="login-button" href="#">계정이름</a>
         </li>
 
-        <!-- space -->
-        <div class="space" style="width:10px"></div>
+        <!-- mypage -->
+        <li class="nav-item mypage">
+          <a href="#" class="mypage-button"></a>
+        </li>
 
         <!-- hamburger bar -->
         <li class="nav-item dropdown">
           <a class="nav-link d-flex align-items-center justify-content-center" href="#" id="navbarDropdown"
-            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-            style="border-radius:35px; width:35px; height:35px; text-align:center; border:1px solid black">
-            <i class="fa-solid fa-bars" style="font-size:20px"></i>
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-bars hamburger" style="font-size:20px;"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right mt-2" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">공지사항</a>
@@ -58,6 +58,17 @@
         </form>
       </div>
     </nav>
+  </div>
+
+  <!-- align button -->
+  <div class="align-button-set">
+    <div class="align-button">
+      <a class="align-button-trending" style="text-decoration: none; color:inherit;" href="#">트렌딩</a>
+    </div>
+    <div class="align-button align-button-space">|</div>
+    <div class="align-button">
+      <a class="align-button-new" style="text-decoration: none; color:lightgray;" href=" #">최신</a>
+    </div>
   </div>
 
   <!-- card group -->
@@ -96,9 +107,29 @@
       </div>
     </div>
 
+    <!-- card4 -->
+    <div class="card" style="width: 18rem; border-radius: 10px; margin:0 25px">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <!-- card5 -->
+    <div class="card" style="width: 18rem; border-radius: 10px; margin:0 25px">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
   </div>
-
-
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
