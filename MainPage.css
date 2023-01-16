@@ -1,0 +1,79 @@
+.collapse {
+    margin-right: 30px;
+}
+
+#navbarSupportedContent{
+    margin-top:-60px;
+}
+
+.login-button-circle{
+    margin-right: -10px;
+}
+
+.login-button {
+    width: 100px;
+    height: 35px;
+    border-radius: 35px;
+    text-align: center;
+    border: 1px solid gray;
+    color: black;
+    padding-top: 4px;
+}
+
+.login-button:hover {
+    border: 1px solid #DBF135;
+    background-color: #DBF135;
+    color: white;
+}
+
+.hamburger{
+    border-radius:35px;
+    width:35px; 
+    height:35px; 
+    text-align:center; 
+    border:1px solid gray;
+    color:black;
+    padding:6.5px;
+}
+
+.hamburger:hover {
+    background-color: #DBF135;
+    border:1px solid #DBF135;
+    color:white;
+}
+
+#wiki-button {
+    border-radius: 25.5px;
+    border: 1px solid gray;
+    color: black;
+}
+
+#wiki-button:hover {
+    border: 1px solid #DBF135;
+    background-color: #DBF135;
+    color: white;
+}
+
+#wiki-word::placeholder {
+    color: gray;
+}
+
+.align-button-set {
+    margin-left: 140px;
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+.align-button {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.align-button-trending {
+    font-size: 20px;
+}
+
+.align-button-new:hover {
+    font-size: 20px;
+    color: black;
+}
