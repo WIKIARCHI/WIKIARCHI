@@ -44,6 +44,18 @@ body{
     color: white;
 }
 
+#dd{
+    position: fixed;
+    top:16px;
+    right: 90px;
+}
+
+#dd2{
+    position: fixed;
+    top:8px;
+    right: 40px;
+}
+
 .hamburger{
     border-radius:35px;
     width:35px; 
@@ -53,6 +65,7 @@ body{
     color:black;
     padding:6.5px;
     background-color: white;
+    
 }
 
 .hamburger:hover {
